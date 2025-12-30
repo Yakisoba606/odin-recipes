@@ -1,9 +1,36 @@
 *{
     background-color: white;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.card{
+.header{
+    background-color: #FF4D00;
+    padding: 12px;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    margin: 0;
+    align-items: baseline;
+}
+
+li.logo{
+    font-size: 40px;
+    font-weight: 900;
+    padding:20px;
+    margin-right: auto;
+}
+
+.nav li{
+    font-size: 25px;
+}
+
+.container{
     width: 400px; 
     border-style: solid;
     border-color: black;
