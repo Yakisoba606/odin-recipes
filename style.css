@@ -29,6 +29,27 @@ li.logo{
     font-size: 25px;
 }
 
+.hero{
+    display: flex;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.hero img{
+    margin: 30px;
+}
+
+.centered{
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
 .container{
     width: 400px; 
     border-style: solid;
@@ -45,3 +66,8 @@ a{
     color: black;
 }
 
+.footer{
+    background-color: #93c4c0;
+    padding: 20px;
+    text-align: center;
+}
